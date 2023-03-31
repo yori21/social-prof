@@ -297,3 +297,38 @@ body {
   line-height: 1.5rem;
   font-size: 1.1rem;
 }
+
+@media (max-width: 650px) {
+  .container {
+    width: 100%;
+  }
+
+  .line-1 div.title {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .line-1 div.rating {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .review,
+  .report,
+  .bestech {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .line-1,
+  .line-2 {
+    display: block;
+  }
+
+  .prof-1,
+  .prof-2,
+  .prof-3 {
+    width: 95%;
+    margin: 2rem auto;
+  }
+}
